@@ -143,7 +143,6 @@ The valleys stretch out as far as the eye can see,
 A landscape of endless beauty and grace."""
 ```
 
-For more details, please refer to [here](./examples/hf_demo/simple_example.py).
 
 ### vLLM
 
