@@ -59,7 +59,7 @@ Our model parameters and training details are as follows:
 |:-----|:--------|:-------|
 |Base|[HARE-1.1B-base](https://huggingface.co/LiteAI/Hare-1.1B-base)|[HARE-1.1B-base](https://modelscope.cn/models/LiteAITeam/Hare-1.1B-base)|
 |Chat|[HARE-1.1B-chat](https://huggingface.co/LiteAI/Hare-1.1B-Chat)|[HARE-1.1B-chat](https://www.modelscope.cn/models/LiteAITeam/Hare-1.1B-Chat/summary)|
-|Tool demo|[HARE-1.1B-tool](https://huggingface.co/LiteAI/Hare-1.1B-Tool))|[HARE-1.1B-tool](https://www.modelscope.cn/models/LiteAITeam/Hare-1.1B-Tool/summary)|
+|Tool demo|[HARE-1.1B-tool](https://huggingface.co/LiteAI/Hare-1.1B-Tool)|[HARE-1.1B-tool](https://www.modelscope.cn/models/LiteAITeam/Hare-1.1B-Tool/summary)|
 
 **We will open source the Chinese version soon.**
 
@@ -279,7 +279,7 @@ As of the release date, Hare-1.1B-base has trained about 600B tokens on [SlimPaj
 
 ### FP8 Efficient Training
 
-FP8 precision training is an emerging method for training LLM, which can greatly save GPU memory and improve training efficiency, but there is a lack of relevant guidance materials in the open source community. We have explored and studied FP8 precision efficient training and summarized the problems we encountered into a best practice. If you need, you can refer to [pretrain_fp8](./train/pretrain_fp8/) for FP8 training.
+FP8 precision training is an emerging method for training LLM, which can greatly save GPU memory and improve training efficiency, but there is a lack of relevant guidance materials in the open source community. We have explored and studied FP8 precision efficient training and summarized the problems we encountered into a best practice. If you need, you can refer to [pretrain_fp8](./train/pretrain_fp8/) for FP8 training and [fp8_inference.py](./examples/fp8_inference_demo/fp8_inference.py) for FP8 inference.
 
 ### SFT
 
