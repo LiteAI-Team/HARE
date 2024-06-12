@@ -59,8 +59,8 @@ HARE 是由中国电信股份有限公司贵州分公司 LiteAI 团队开发的�
 |      | HuggingFace | ModelScope |
 |:-----|:--------|:-------|
 |Base|[HARE-1.1B-base](https://huggingface.co/LiteAI-Team/Hare-1.1B-base)|[HARE-1.1B-base](https://modelscope.cn/models/LiteAITeam/Hare-1.1B-base)|
-|Chat|[HARE-1.1B-chat](https://huggingface.co/LiteAI/Hare-1.1B-Chat)|[HARE-1.1B-chat]()|
-|Tool demo|[HARE-1.1B-tool](https://huggingface.co/LiteAI/Hare-1.1B-Tool)|[HARE-1.1B-tool]()|
+|Chat|[HARE-1.1B-chat](https://huggingface.co/LiteAI/Hare-1.1B-Chat)|[HARE-1.1B-chat](https://www.modelscope.cn/models/LiteAITeam/Hare-1.1B-Chat/summary)|
+|Tool demo|[HARE-1.1B-tool](https://huggingface.co/LiteAI/Hare-1.1B-Tool)|[HARE-1.1B-tool](https://www.modelscope.cn/models/LiteAITeam/Hare-1.1B-Tool/summary)|
 
 **我们将在不久后开源中文版本。**
 
@@ -294,7 +294,7 @@ Hello!<round_end>
 Hello there! What can i do for you?<round_end>
 ```
 <!-- TODO -->
-您可以按照参考[这里](./examples/chat_demo/hf_chat_inference.py)体验我们发布的 [HARE-1.1B-chat]()。
+您可以按照参考[这里](./examples/chat_demo/hf_chat_inference.py)体验我们发布的 [HARE-1.1B-chat](https://huggingface.co/LiteAI/Hare-1.1B-Chat)。
 
 #### 微调
 
