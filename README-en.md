@@ -34,7 +34,7 @@ Our source code is open sourced under Apache 2.0. As our model is only used for 
 
 <!-- TODO -->
 ## Update Log
- - **2024-06-05 Open source [HARE-1.1B-base](https://huggingface.co/LiteAI-Team/Hare-1.1B-base), [HARE-1.1B-chat]() and tool calling practice [HARE-1.1B-tool](), you can read our technical report [here](https://liteai-team.notion.site/HARE-HumAn-pRiors-a-key-to-small-language-model-Efficiency-a285280a3c61491ab142cc718f84aa7d?pvs=25).**
+ - **2024-06-05 Open source [HARE-1.1B-base](https://huggingface.co/LiteAI/Hare-1.1B-base), [HARE-1.1B-chat](https://huggingface.co/LiteAI/Hare-1.1B-Chat) and tool calling practice [HARE-1.1B-tool](https://huggingface.co/LiteAI/Hare-1.1B-Tool), you can read our technical report [here](https://liteai-team.notion.site/HARE-HumAn-pRiors-a-key-to-small-language-model-Efficiency-a285280a3c61491ab142cc718f84aa7d?pvs=25).**
 <p id="model_link"></p>
 
 ## Model Address
@@ -57,9 +57,9 @@ Our model parameters and training details are as follows:
 <!-- TODO -->
 |      | HuggingFace | ModelScope |
 |:-----|:--------|:-------|
-|Base|[HARE-1.1B-base](https://huggingface.co/LiteAI-Team/Hare-1.1B-base)|[HARE-1.1B-base](https://modelscope.cn/models/LiteAITeam/Hare-1.1B-base)|
-|Chat|[HARE-1.1B-chat]()|[HARE-1.1B-chat]()|
-|Tool demo|[HARE-1.1B-tool]()|[HARE-1.1B-tool]()|
+|Base|[HARE-1.1B-base](https://huggingface.co/LiteAI/Hare-1.1B-base)|[HARE-1.1B-base](https://modelscope.cn/models/LiteAITeam/Hare-1.1B-base)|
+|Chat|[HARE-1.1B-chat](https://huggingface.co/LiteAI/Hare-1.1B-Chat)|[HARE-1.1B-chat](https://www.modelscope.cn/models/LiteAITeam/Hare-1.1B-Chat/summary)|
+|Tool demo|[HARE-1.1B-tool](https://huggingface.co/LiteAI/Hare-1.1B-Tool))|[HARE-1.1B-tool](https://www.modelscope.cn/models/LiteAITeam/Hare-1.1B-Tool/summary)|
 
 **We will open source the Chinese version soon.**
 
@@ -167,7 +167,6 @@ sampling_params = SamplingParams(temperature=0.8, top_p=0.95, max_tokens=64)
 outputs = llm.generate(query, sampling_params)
 print(outputs)
 ```
-For more details, please refer to [here](./examples/vllm_demo/vllm_inference.py).
 
 ### Gradio Page Deployment
 If you need to use Gradio for page deployment, you can refer to [gradio_demo.py](./examples/gradio_demo/gradio_demo.py).
@@ -296,7 +295,7 @@ Hello!<round_end>
 Hello there! What can i do for you?<round_end>
 ```
 <!-- TODO -->
-You can refer to [here](./examples/chat_demo/hf_chat_inference.py) to experience our released [HARE-1.1B-chat]().
+You can refer to [here](./examples/chat_demo/hf_chat_inference.py) to experience our released [HARE-1.1B-chat](https://huggingface.co/LiteAI/Hare-1.1B-Chat).
 
 #### Fine-tuning
 
