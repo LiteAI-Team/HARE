@@ -27,7 +27,7 @@ Our source code is open sourced under Apache 2.0. As our model is only used for 
 
 #### Quick Navigation
 
-[Update log](#update_log) | [Model link](#model_link) | [Evaluation](#evaluation) | [Quick start](#quick_start) | [Continue train](#continue_train) | [Tool calling](#tool_calling) | [Contact us](#contact_us) 
+[Update Log](#update_log) | [Model Address](#model_link) | [Evaluation Results](#evaluation) | [Quick Start](#quick_start) | [Secondary Development](#continue_train) | [Tool Call Practice](#tool_calling) | [Contact us](#contact_us) 
 
 <!-- 更新日志 -->
 <p id="update_log"></p>
@@ -101,7 +101,7 @@ You can also find the evaluation results on [Open LLM Leaderboard](https://huggi
 <!-- 快速使用 -->
 <p id="quick_start"></p>
 
-## Quick start
+## Quick Start
 
 Here are some usage examples. You can refer to these codes to quickly load and experience our model.
 
