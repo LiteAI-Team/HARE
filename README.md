@@ -6,7 +6,7 @@
 
 中文 ｜ [English](./README-en.md)
 <p align="center">
-    🤗 <a href="https://huggingface.co/LiteAI-Team/Hare-1.1B-base">Hugging Face</a> | 🤖 <a href="https://modelscope.cn/models/LiteAITeam/Hare-1.1B-base">ModelScope</a> | 📃 <a href="https://liteai-team.notion.site/HARE-HumAn-pRiors-a-key-to-small-language-model-Efficiency-a285280a3c61491ab142cc718f84aa7d?pvs=25">Technical Report</a> 
+    🤗 <a href="https://huggingface.co/LiteAI-Team/Hare-1.1B-base">Hugging Face</a> | 🤖 <a href="https://modelscope.cn/models/LiteAITeam/Hare-1.1B-base">ModelScope</a> | 📑 <a href="https://arxiv.org/abs/2406.11410">ArXiv</a> 
 </p>
 <!-- | 📑 <a href="">ArXiv</a> -->
 </div>
@@ -33,7 +33,7 @@ HARE 是由中国电信股份有限公司贵州分公司 LiteAI 团队开发的�
 
 <!-- TODO -->
 ## 更新日志
- - **2024-06-05 开源 [HARE-1.1B-base](https://huggingface.co/LiteAI-Team/Hare-1.1B-base)、[HARE-1.1B-chat](https://huggingface.co/LiteAI/Hare-1.1B-Chat) 和工具调用实践 [HARE-1.1B-tool](https://huggingface.co/LiteAI/Hare-1.1B-Tool)，您可以在[这里](https://liteai-team.notion.site/HARE-HumAn-pRiors-a-key-to-small-language-model-Efficiency-a285280a3c61491ab142cc718f84aa7d?pvs=25)阅读我们的技术报告。**
+ - **2024-06-05 开源 [HARE-1.1B-base](https://huggingface.co/LiteAI-Team/Hare-1.1B-base)、[HARE-1.1B-chat](https://huggingface.co/LiteAI/Hare-1.1B-Chat) 和工具调用实践 [HARE-1.1B-tool](https://huggingface.co/LiteAI/Hare-1.1B-Tool)，更多细节您可以阅读我们的[论文](https://arxiv.org/abs/2406.11410)。**
 
 <!-- 模型地址 -->
 <p id="model_link"></p>
@@ -83,7 +83,7 @@ HARE 采取将开源高质量预训练数据和策略生成数据混合训练的
 |csg-wukong|1B|37.78|25.33|37.71|42.79|56.67|58.93|5.23|
 |TinyLlama-3T|1.1B|36.42|26.04|33.87|37.32|59.51|60.31|1.44|
 
-同时，我们针对 benchmark 数据泄漏问题做了探索与实验，详细分析请参考我们的技术报告 [HARE](https://liteai-team.notion.site/HARE-HumAn-pRiors-a-key-to-small-language-model-Efficiency-a285280a3c61491ab142cc718f84aa7d?pvs=25) 。
+同时，我们针对 benchmark 数据泄漏问题做了探索与实验，详细分析请参考我们的 [论文](https://arxiv.org/abs/2406.11410) 。
 
 同样地，我们也对SFT后的模型进行评测，结果如下：
 
@@ -332,7 +332,7 @@ Step.2 **开始微调**
 
 [**视频展示**](https://www.bilibili.com/video/BV1Ry411b7yx)
 
-如您对小模型在端侧上进行工具调用感兴趣，您可以阅读我们的[技术报告](https://liteai-team.notion.site/HARE-HumAn-pRiors-a-key-to-small-language-model-Efficiency-a285280a3c61491ab142cc718f84aa7d?pvs=25)，也欢迎您与我们共同探讨和深入研究。
+如您对小模型在端侧上进行工具调用感兴趣，您可以阅读我们的[论文](https://arxiv.org/abs/2406.11410)，也欢迎您与我们共同探讨和深入研究。
 
 ## 声明
 
