@@ -350,6 +350,15 @@ Step.2 **开始微调**
 ### 引用
 如您觉得我们的工作对您有所帮助，欢迎您引用我们的工作！
 ```plaintext
+@misc{zhang2024harehumanpriorskey,
+      title={HARE: HumAn pRiors, a key to small language model Efficiency}, 
+      author={Lingyun Zhang and Bin jin and Gaojian Ge and Lunhui Liu and Xuewen Shen and Mingyong Wu and Houqian Zhang and Yongneng Jiang and Shiqi Chen and Shi Pu},
+      year={2024},
+      eprint={2406.11410},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+      url={https://arxiv.org/abs/2406.11410}, 
+}
 ```
 
 <!-- 联系我们 -->
