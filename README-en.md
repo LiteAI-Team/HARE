@@ -6,7 +6,7 @@
 
 [中文](./README.md) ｜ English
 <p align="center">
-    🤗 <a href="https://huggingface.co/LiteAI-Team/Hare-1.1B-base">Hugging Face</a> | 🤖 <a href="https://modelscope.cn/models/LiteAITeam/Hare-1.1B-base">ModelScope</a> | 📃 <a href="https://liteai-team.notion.site/HARE-HumAn-pRiors-a-key-to-small-language-model-Efficiency-a285280a3c61491ab142cc718f84aa7d?pvs=25">Technical Report</a> 
+    🤗 <a href="https://huggingface.co/LiteAI-Team/Hare-1.1B-base">Hugging Face</a> | 🤖 <a href="https://modelscope.cn/models/LiteAITeam/Hare-1.1B-base">ModelScope</a> | 📑 <a href="https://arxiv.org/abs/2406.11410">ArXiv</a> 
 </p>
 <!-- | 📑 <a href="">ArXiv</a> -->
 </div>
@@ -34,7 +34,7 @@ Our source code is open sourced under Apache 2.0. As our model is only used for 
 
 <!-- TODO -->
 ## Update Log
- - **2024-06-05 Open source [HARE-1.1B-base](https://huggingface.co/LiteAI/Hare-1.1B-base), [HARE-1.1B-chat](https://huggingface.co/LiteAI/Hare-1.1B-Chat) and tool calling practice [HARE-1.1B-tool](https://huggingface.co/LiteAI/Hare-1.1B-Tool), you can read our technical report [here](https://liteai-team.notion.site/HARE-HumAn-pRiors-a-key-to-small-language-model-Efficiency-a285280a3c61491ab142cc718f84aa7d?pvs=25).**
+ - **2024-06-05 Open source [HARE-1.1B-base](https://huggingface.co/LiteAI/Hare-1.1B-base), [HARE-1.1B-chat](https://huggingface.co/LiteAI/Hare-1.1B-Chat) and tool calling practice [HARE-1.1B-tool](https://huggingface.co/LiteAI/Hare-1.1B-Tool), more details you can read our [paper](https://arxiv.org/abs/2406.11410).**
 <p id="model_link"></p>
 
 ## Model Address
@@ -82,7 +82,7 @@ HARE adopts a mixed training method of open source high-quality pre-training dat
 |csg-wukong|1B|37.78|25.33|37.71|42.79|56.67|58.93|5.23|
 |TinyLlama-3T|1.1B|36.42|26.04|33.87|37.32|59.51|60.31|1.44|
 
-We also explored and experimented with the benchmark data leakage issue. For detailed analysis, please refer to our technical report [HARE](https://liteai-team.notion.site/HARE-HumAn-pRiors-a-key-to-small-language-model-Efficiency-a285280a3c61491ab142cc718f84aa7d?pvs=25).
+We also explored and experimented with the benchmark data leakage issue. For detailed analysis, please refer to our [paper](https://arxiv.org/abs/2406.11410).
 
 Similarly, we evaluated the model after SFT, and the results are as follows:
 
@@ -332,7 +332,7 @@ To fully leverage the advantages of SLMs on end-user devices, we followde the wo
 
 [**See Demo**](https://www.bilibili.com/video/BV1Ry411b7yx)
 
-If you are interested in tool calls for SLMs on end-user devices, you can read our [Technical Report](https://liteai-team.notion.site/HARE-HumAn-pRiors-a-key-to-small-language-model-Efficiency-a285280a3c61491ab142cc718f84aa7d?pvs=25), and you are also welcome to contact us in academic study.
+If you are interested in tool calls for SLMs on end-user devices, you can read our [paper](https://arxiv.org/abs/2406.11410), and you are also welcome to contact us in academic study.
 
 ## Statement
 
