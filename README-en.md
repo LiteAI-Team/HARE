@@ -350,6 +350,15 @@ If you are interested in tool calls for SLMs on end-user devices, you can read o
 ### Citation
 If you think our work is helpful to you, you are welcome to cite our work!
 ```plaintext
+@misc{zhang2024harehumanpriorskey,
+      title={HARE: HumAn pRiors, a key to small language model Efficiency}, 
+      author={Lingyun Zhang and Bin jin and Gaojian Ge and Lunhui Liu and Xuewen Shen and Mingyong Wu and Houqian Zhang and Yongneng Jiang and Shiqi Chen and Shi Pu},
+      year={2024},
+      eprint={2406.11410},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+      url={https://arxiv.org/abs/2406.11410}, 
+}
 ```
 
 <!-- 二次开发 -->
